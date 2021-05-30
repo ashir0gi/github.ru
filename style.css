@@ -1,0 +1,463 @@
+body{
+  background-color: black; 
+}
+header{
+position:fixed;
+ width: 100%; 
+ height:70px;
+ left: 0px;
+ top:0px;
+ background: #0d1418 url(LOGO.svg ) no-repeat 0% 20%;
+ background-size: contain;
+ padding-bottom:80px;
+
+}
+/*<ul class = "menu">
+  <li><a href = "#">Контакты</a></li>
+  <li><a href = "#">О нас</a></li>
+  <li><a href = "#">Услуги</a></li>
+</ul>*/
+.title{
+padding-left:100px;
+ font-size: 36px;
+ padding-top: auto;
+ text-align: justify;
+color:white;
+font-family:  Ubuntu;
+}
+.upperbutton{
+font-size: 25px;
+padding:5px;
+ text-align: justify;
+font-color:white;
+font-family:  Ubuntu;
+}
+.menu{
+ list-style: none;
+ position: absolute;
+ top:5px;
+ right: 100px;
+ color:white;
+ font-family:  Ubuntu;}
+
+.liltext1{
+  color:white;
+   margin-left: 500px;
+    margin-right:100px;
+  border-radius: 30px;  
+  display: block;
+  text-align:center;
+  padding-top:100px;
+  font-family:  Ubuntu;
+  text-shadow: black 0 0 30px;
+  height:420px;
+  background:url('blur1.jpg') no-repeat;
+  background-size: 100%; 
+  font-size:30px;
+  margin-top:40px;
+
+}
+.liltext2{
+  color:white;
+   margin-left: 500px;
+    margin-right:100px;
+  border-radius: 30px;  
+  display: block;
+  text-align:center;
+  padding-top:100px;
+  font-family:  Ubuntu;
+  text-shadow: black 0 0 30px;
+  height:420px;
+  background:url('blur2.jpg') no-repeat;
+  background-size: 100%; 
+  font-size:30px;
+  margin-top:40px;
+
+}
+.liltext3{
+  color:white;
+  margin-left: 500px;
+  margin-right:100px;
+  border-radius: 30px;  
+  display: block;
+  text-align:center;
+  padding-top:100px;
+  font-family:  Ubuntu;
+  text-shadow: black 0 0 30px;
+  height:420px;
+  background:url('blur3.jpg') no-repeat;
+  background-size: 100%; 
+  font-size:30px;
+  margin-top:40px;
+
+}
+.inputer{
+  color:black;
+}
+.mainphoto{width: 500px;
+  height: 300px;
+  border-radius:10px;
+}
+.upper{
+  position: fixed;
+  font-size:20px;
+  background-color: black ; 
+  right: 30px;
+  bottom: 30px; 
+  padding: 4px 10px;
+  text-align: center;
+  border:2px solid #192135;
+  font-family:  Ubuntu;
+  border-radius: 10px;
+}
+footer {
+  height:70px;
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0d1418;
+  color: #fede41;
+  text-align: justify;
+  font-size: 10px;
+  font-family: Ubuntu;
+}
+.social{
+right:200px;
+position: absolute;
+bottom:15px;
+transition: 0.6s;
+}
+.social:hover{
+  transform: scale(1.2);
+}
+.social1{
+right:250px;
+position: absolute;
+bottom:15px;
+transition: 0.6s;
+}
+.social1:hover{
+  transform: scale(1.2);
+}
+a{
+    color: #808080;
+    text-decoration: none;
+   }
+a:hover{
+  color: #fede41;
+  text-decoration: none;
+}
+.vertical-menu {
+    margin:auto;
+    display: flex;
+    text-align: center;
+    list-style-type: none; 
+    margin-top:150px;
+    padding:auto;
+    font-size:20px;
+}
+
+.vertical-menu a {
+  border:1px solid #fede41;
+    font-family: Ubuntu;
+    background-color: #eee; 
+    color: #fede41; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none;
+    background-color: #0d1418;  
+}
+.vertical-menu a:hover {
+    font-family: Ubuntu;
+    background-color:#808080 ; 
+    text-decoration: none;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+.servicesbox{
+  display:flex;
+  justify-content: space-around;
+}
+.services1{
+  font-family: Ubuntu;
+  text-align:center;
+  padding: 80px;
+  margin:20px;
+  width:500px;
+  color:#fede41;
+  font-size:30px;
+  border:2px solid #fede41;
+  border-radius:20px;
+  background-image: url(luchshie_prostye_programmy_dlja_cherchenija_na_kompjutere_5.jpg);
+  text-shadow: black 0 0 30px;
+}
+.services2{
+  font-family: Ubuntu;
+  text-align:center;
+  padding: 80px;
+  margin:20px;
+  width:500px;
+  color:#fede41;
+  font-size:30px;
+  border:2px solid #fede41;
+  border-radius:20px;
+  background-image: url(pristennyy-yuvelirnyy-pavilon.jpg);
+  text-shadow: black 0 0 30px;
+}
+.services3{
+  font-family: Ubuntu;
+  text-align:center;
+  padding: 80px;
+  margin:20px;
+  width:500px;
+  color:#fede41;
+  font-size:30px;
+  border:2px solid #fede41;
+  border-radius:20px;
+  background-image: url(M9bZHElD6go.jpg);
+  text-shadow: black 0 0 30px;
+}
+.services4{
+  font-family: Ubuntu;
+  text-align:center;
+  padding: 80px;
+  margin:20px;
+  width:500px;
+  color:#fede41;
+  font-size:30px;
+  border:2px solid #fede41;
+  border-radius:20px;
+  background-image: url(Perevozka.jpg);
+  text-shadow: black 0 0 30px;
+}
+.services5{
+  font-family: Ubuntu;
+  text-align:center;
+  padding: 80px;
+  margin:20px;
+  width:500px;
+  color:#fede41;
+  font-size:30px;
+  border:2px solid #fede41;
+  border-radius:20px;
+  background-image: url(1-torgovyj-ostrovok-dlya-prodazhi-chasov-over-time-1.jpg);
+  text-shadow: black 0 0 30px;
+}
+}
+
+.oplata{
+ list-style: none;
+ color:white;
+ font-family: Ubuntu;}
+.oplata h2{
+ color:white;
+ font-family: Ubuntu;
+ font-size:60px;
+}
+.ssil{
+  font-family: Ubuntu;
+  text-align: center;
+  display:block;
+  color:black;
+  font-size:30px;
+  width:500px;
+  border:2px solid #fede41;
+  background-color:#fede41;
+  border-radius: 10px;
+  margin-left:50px;
+  padding:10px;
+  transition:0.24s;
+}
+.ssil:hover{
+  color:black;
+  transform: scale(1.1);
+}
+
+.list{
+  font-family:Ubuntu;
+  color:white;
+  display:flex;
+  font-size:30px;
+  width:600px;
+  border:2px solid #fede41;
+  border-radius: 10px;
+  margin:30px;
+  padding:10px;
+}
+.paycolumn{
+display:flex;
+}
+.lilpaycolumn{
+margin-left:100px;
+}
+.yellowcar{
+  margin:0;
+ width:300px;
+ height:300px;
+}
+@media screen and (max-width: 1000px) {
+.paycolumn{
+display:block;
+}
+.lilpaycolumn{
+margin:auto;
+}
+.liltext1{
+background-size: cover;
+background-position: center;
+width:350px;
+height:200px;
+font-size: 17px;
+margin:auto;
+margin-top:20px;
+}
+.liltext2{
+  padding-top:10px;
+  color:white;
+background-size: cover;
+background-position: center;
+width:350px;
+height:200px;
+font-size: 17px;
+margin-left: 50px;
+margin-right:25px;
+margin:auto;
+margin-top:20px;
+}
+
+.liltext3{
+background-size: cover;
+background-position: center;
+width:350px;
+height:200px;
+font-size: 17px;
+margin-left: 50px;
+margin-right:25px;
+margin:auto;
+margin-top:20px;
+}
+.list{
+  margin-left: auto;
+  margin-right: auto;
+margin-top:10px;
+  font-size:20px;  
+  width:auto;
+}
+.ssil{
+  margin-top:10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:20px;
+  width:auto;
+}
+    .servicesbox{
+  display:block;
+float: none;
+margin: 0 auto;
+    }
+.services1{
+  width:150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.services2{
+width:150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.services3{
+width:150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.services4{
+width:150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.services5{
+width:150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.vertical-menu {
+    margin:auto;
+    display: block;
+    text-align: center;
+    list-style-type: none; 
+    margin-top:150px;
+    padding:auto;
+    font-size:20px;
+}
+footer p {
+  color:#0d1418;
+}
+footer:{
+width:90%;
+}
+
+.menu{
+ display:none;
+}
+.telephone{
+margin:10px;
+display: flex;
+position: fixed;
+bottom:200px;
+transition: 0.6s;
+animation: ring 4s .30s ease-in-out;
+animation-iteration-count: 1;
+transform-origin: 50% 4px;
+}
+@keyframes ring {
+  0% { transform: rotate(0); }
+  5% { transform: rotate(30deg); }
+  10% { transform: rotate(-28deg); }
+  15% { transform: rotate(34deg); }
+  20% { transform: rotate(-32deg); }
+  25% { transform: rotate(30deg); }
+  30% { transform: rotate(-28deg); }
+  35% { transform: rotate(26deg); }
+  40% { transform: rotate(-24deg); }
+  45% { transform: rotate(22deg); }
+  50% { transform: rotate(-20deg); }
+  55% { transform: rotate(18deg); }
+  60% { transform: rotate(-16deg); }
+  65% { transform: rotate(14deg); }
+  70% { transform: rotate(-12deg); }
+  75% { transform: rotate(10deg); }
+  80% { transform: rotate(-8deg); }
+  85% { transform: rotate(6deg); }
+  90% { transform: rotate(-4deg); }
+  95% { transform: rotate(2deg); }
+  100% { transform: rotate(-1deg); }
+}
+}
+.mainphoto{
+  width: 50%;
+  height:50%;
+  border-radius:10px;
+}
+.main_info{ 
+  padding-top:3px;
+  width:80%;
+  height: auto;
+  font-size:15px;
+}
+.list{
+  font-family:;
+}
+
+@media screen and (min-width: 800px){
+.telephone{
+display:none; 
+}
+}
